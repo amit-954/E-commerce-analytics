@@ -16,7 +16,7 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-// Register Chart.js components
+
 ChartJS.register(
 	LineElement,
 	CategoryScale,
@@ -63,7 +63,7 @@ const SalesGrowthRateChart = () => {
 					],
 				});
 
-				// Calculate average sales growth rate
+				
 				const totalGrowthRate = growthRate.reduce(
 					(sum, rate) => sum + rate,
 					0,

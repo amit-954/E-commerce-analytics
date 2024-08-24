@@ -13,7 +13,7 @@ import {
 } from "chart.js";
 import Typography from "@mui/material/Typography";
 
-// Register Chart.js components
+
 ChartJS.register(
 	LineElement,
 	CategoryScale,
@@ -63,7 +63,7 @@ const CustomerLifetimeValueCohortsChart = () => {
 					],
 				});
 
-				// Calculate the average lifetime value
+				
 				const totalLifetimeValue = lifetimeValue.reduce(
 					(sum, value) => sum + value,
 					0,
@@ -104,7 +104,7 @@ const CustomerLifetimeValueCohortsChart = () => {
 			</div>
 			<br />
 
-			{/* Display average lifetime value */}
+			
 			{!loading && !error && (
 				<Typography variant="h6" sx={{ marginBottom: 2 }}>
 					Average Lifetime Value = {averageLifetimeValue}

@@ -88,8 +88,8 @@ export default function App() {
 							<ListItem key={index} disablePadding>
 								<ListItemButton
 									onClick={() => handleIconClick(index)}
-									selected={selectedIndex === index} // Highlight selected icon
-									sx={{ marginBottom: 2 }} // Adds space between icons
+									selected={selectedIndex === index}
+									sx={{ marginBottom: 2 }}
 								>
 									<ListItemIcon
 										sx={{

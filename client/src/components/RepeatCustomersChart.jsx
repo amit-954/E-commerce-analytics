@@ -65,7 +65,7 @@ const RepeatCustomersChart = () => {
 					],
 				});
 
-				// Calculate the average number of repeat customers
+				
 				const totalRepeatCustomers = repeatCustomers.reduce(
 					(sum, value) => sum + value,
 					0,

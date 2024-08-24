@@ -63,7 +63,7 @@ const NewCustomersChart = () => {
 					],
 				});
 
-				// Calculate the average number of new customers
+				
 				const totalNewCustomers = newCustomers.reduce(
 					(sum, count) => sum + count,
 					0,
