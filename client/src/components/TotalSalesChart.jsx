@@ -41,7 +41,7 @@ const TotalSalesChart = () => {
 		try {
 			setLoading(true);
 			const response = await axios.get(
-				`http://localhost:5000/api/analytics/total-sales?interval=${interval}`,
+				`https://analytics-server-kklo.onrender.com/api/analytics/total-sales?interval=${interval}`,
 			);
 			const data = response.data;
 
